@@ -2052,7 +2052,7 @@ Demo Utils
 
 /* Blockquote Box */
 .quote-v1 {
-  background: #7C858E;
+  background: #2d9eb2;
   padding: 10px 0;
   margin-left: 0;
   margin-right: 0;
@@ -2444,7 +2444,7 @@ Demo Utils
 }
 .faq-tabbable li a {
   font-size: 14px;
-  color: #7C858E;
+  color: #2d9eb2;
   display: block;
   background: #F4F4F4;
   padding: 12px 10px 11px 8px;
@@ -2749,10 +2749,10 @@ Demo Utils
 	background: #E84D1C;
 }
 .front-steps-wrapper .front-step2 {
-	background: #7c858e;
+	background: #2d9eb2;
 }
 .front-steps-wrapper .front-step3 {
-	background: #68727c;
+	background: #2b8595;
 }
 .front-steps-wrapper .front-step4 {
 	background: #636a72;
