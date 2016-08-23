@@ -168,6 +168,9 @@ a:hover {
 .owl-buttons .owl-prev:hover {
     background-color: #30bed6;
 }
+.owl-buttons .owl-next {
+    background-color: #30bed6;
+}
 .owl-buttons .owl-next:hover {
     background-color: #30bed6;
 }
