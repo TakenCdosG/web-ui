@@ -810,10 +810,10 @@ body.page-header-fixed {
 	text-indent: -100000px;
 }
 .owl-buttons .owl-prev {
-    background: #fff url(../img/fa-angles.png) no-repeat 8px 8px;
+    background: #fff url(../img/fa-angles.png) no-repeat 8px -31px;
 }
 .owl-buttons .owl-next {
-    background: #fff url(../img/fa-angles.png) no-repeat -33px 8px;
+    background: #fff url(../img/fa-angles.png) no-repeat -33px -31px;
 }
 .owl-buttons .owl-prev:hover {
     background: #e84d1c url(../img/fa-angles.png) no-repeat 8px -31px;
