@@ -298,15 +298,15 @@ a:hover {
 }
 
 .header-navigation .dropdown-menu > li:first-child {
-    border-top: 2px solid #EA4C1D;
+    border-top: 2px solid #2eb4ca;
 }
 .front-steps-wrapper .front-step1:after {
-    border-left: 15px solid #EC7049;
+    border-left: 15px solid #40bace;
 }
 
 .del-goods:hover,
 .add-goods:hover {
-	background-color: #E94D1C;
+	background-color: #2db7ce;
 }
 
 .sidebar a:hover > .fa-angle-down {
@@ -320,47 +320,47 @@ a:hover {
 }
 
 .front-skills .progress-bar {
-  background: #EF4D2E;
+  background: #2eb2c7;
 }
 
 .service-box-v1:hover {
-  background: #d73d04;
+  background: #2eb2c7;
 }
 
 .header .mobi-toggler:hover {
-  background-color: #e34f00;
-  border-color: #e34f00;
+  background-color: #2fbbd2;
+  border-color: #2fbbd2;
 }
 
 @media (max-width: 1024px) {
 	.header .header-navigation li > a:hover,
 	.header .header-navigation li.active > a,
 	.header .header-navigation li.open > a:hover {
-		color: #dd4632 !important;
+		color: #2eb2c7 !important;
 	}
 }
 
 .faq-tabbable {
-  border-left: solid 2px #e44f00;
+  border-left: solid 2px #2eb2c7;
 }
 .faq-tabbable li:hover a,
 .faq-tabbable li.active a{
-  background: #e44f00;
+  background: #2eb2c7;
 }
 .faq-tabbable li.active:after {
-  border-left: 6px solid #e44f00;
+  border-left: 6px solid #2eb2c7;
 }
 
 .mix-filter li:hover, .mix-filter li.active {
-    background: #e44f00;
+    background: #2eb2c7;
     color: #fff;
 }
 .mix-grid .mix .mix-details {
-	background: #e44f00;
+	background: #2eb2c7;
 }
 .mix-grid .mix a.mix-link, 
 .mix-grid .mix a.mix-preview {
-  background: #DB3A1B;
+  background: #2eb2c7;
 }
 .langs-block-others {
 	border-top: solid 2px #30bed6;
