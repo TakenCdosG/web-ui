@@ -118,16 +118,16 @@ a:hover {
 	color: #30bed6;
 }
 .recent-work .recent-work-item:hover a.recent-work-description {
-	background: #E6400C;
+	background: #30bed6;
 }
 .testimonials-v1 blockquote:after { 
-  background-color: #E6400C;
+  background-color: #30bed6;
 }
 .testimonials-v1 span.testimonials-name {
-	color: #E6400C;
+	color: #30bed6;
 }
 .search-result-item h4 a {
-	color: #E6400C;
+	color: #30bed6;
 }
 .top-cart-content:after { 
 	border-bottom: 8px solid #30bed6;
@@ -140,12 +140,12 @@ a:hover {
 	color: #30bed6;
 }
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-    background: #E6400C;
+    background: #30bed6;
     color: #fff;
 }
 .list-view-sorting a {
 	background: #fff;
-	color: #E6400C;
+	color: #30bed6;
 }
 
 ::-moz-selection {
