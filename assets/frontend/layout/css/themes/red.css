@@ -279,22 +279,22 @@ a:hover {
 
 
 .require {
-	color: #e94d1c;
+	color: #2eb4ca;
 }
 .content-form-page .form-control:focus {
-	border: solid 1px #e94d1c;
+	border: solid 1px #2eb4ca;
 }
 .content-search input:focus {
-	border: solid 1px #e94d1c;
+	border: solid 1px #2eb4ca;
 }
 
 .btn-primary {
-	background: #e94d1c;
+	background: #2eb4ca;
 }
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-	background: #cc3304;
+	background: #1fa5bb;
 }
 
 .header-navigation .dropdown-menu > li:first-child {
