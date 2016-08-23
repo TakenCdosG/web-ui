@@ -75,10 +75,7 @@ $.idleTimer = function f(newTimeout){
         
         //detach the event handlers
         $(document).unbind('.idleTimer');
-    },
-    
-    
-    /* (intentionally not documented)
+    },/* (intentionally not documented)
      * Handles a user event indicating that the user isn't idle.
      * @param {Event} event A DOM2-normalized event object.
      * @return {void}
@@ -113,10 +110,7 @@ $.idleTimer = function f(newTimeout){
      * @return {void}
      * @method $.idleTimer
      * @static
-     */ 
-    
-    
-    f.olddate = f.olddate || +new Date;
+     */ f.olddate = f.olddate || +new Date;
     
     //assign a new timeout if necessary
     if (typeof newTimeout == "number"){
@@ -129,10 +123,7 @@ $.idleTimer = function f(newTimeout){
     }
     
     //assign appropriate event handlers
-    $(document).bind($.trim((events+' ').split(' ').join('.idleTimer ')),handleUserEvent);
-    
-    
-    //set a timeout to toggle state
+    $(document).bind($.trim((events+' ').split(' ').join('.idleTimer ')),handleUserEvent);//set a timeout to toggle state
     $.idleTimer.tId = setTimeout(toggleIdleState, timeout);
     
     // assume the user is active for the first x seconds.
