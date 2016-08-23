@@ -2254,9 +2254,11 @@ Demo Utils
 .testimonials-v1 .left-btn {
 	right: 30px;
     background: url(../img/fa-angles.png) no-repeat 8px -31px;
+    background-color: #30bed6;
 }
 .testimonials-v1 .right-btn {
     background: url(../img/fa-angles.png) no-repeat -33px -31px;
+    background-color: #30bed6;
 }
 .testimonials-v1 .left-btn:hover {
 }
