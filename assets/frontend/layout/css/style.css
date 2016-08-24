@@ -2118,7 +2118,7 @@ Demo Utils
 .recent-work .recent-work-item a.recent-work-description {
 	padding: 10px;
 	display: block;
-	background: #fff;
+	background: #F4F4F4;
 }
 .recent-work .recent-work-item:hover a.recent-work-description {
 	background: #E6400C;
