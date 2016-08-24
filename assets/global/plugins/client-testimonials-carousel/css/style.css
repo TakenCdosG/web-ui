@@ -118,7 +118,7 @@ Main components
 .cd-author img {
   width: 32px;
   height: 32px;
-  border-radius: 50%;
+  border-radius: 50% !important;
   margin-right: 5px;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
 }
