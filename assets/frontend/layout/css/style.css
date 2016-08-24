@@ -1709,7 +1709,7 @@ Pre-Footer and pre-footer elements
 	color: inherit;
 }
 .footer .padding-top-10 {
-	opacity: 0.5;
+	opacity: 1;
 }
 .footer .list-inline > li:last-child {
 	padding-right: 0;
@@ -1723,7 +1723,7 @@ Pre-Footer and pre-footer elements
 	padding-top: 5px;
 }
 .footer ul.social-footer a {
-	opacity: 0.5;
+	opacity: 1;
 }
 .footer ul.social-footer a:hover {
 	opacity: 1;
@@ -2118,7 +2118,7 @@ Demo Utils
 .recent-work .recent-work-item a.recent-work-description {
 	padding: 10px;
 	display: block;
-	background: #fff;
+	background: #F4F4F4;
 }
 .recent-work .recent-work-item:hover a.recent-work-description {
 	background: #E6400C;
