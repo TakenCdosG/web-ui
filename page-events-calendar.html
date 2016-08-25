@@ -17,7 +17,7 @@ Like: https://www.facebook.com/thinkcreativegroup
 <!-- Head BEGIN -->
 <head>
   <meta charset="utf-8">
-  <title>Page Not Founded | THINK Frontend</title>
+  <title>Event Calendar</title>
 
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -45,7 +45,7 @@ Like: https://www.facebook.com/thinkcreativegroup
   <!-- Global styles END --> 
    
   <!-- Page level plugin styles START -->
-  <link href="/assets/global/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet">
+  <link href="/assets/global/plugins/monthly/css/monthly.css" rel="stylesheet">
   <!-- Page level plugin styles END -->
 
   <!-- Theme styles START -->
@@ -60,6 +60,7 @@ Like: https://www.facebook.com/thinkcreativegroup
 
 <!-- Body BEGIN -->
 <body class="corporate">
+
     <!-- BEGIN HEADER -->
     <div class="header">
       <div class="container">
@@ -70,10 +71,9 @@ Like: https://www.facebook.com/thinkcreativegroup
         <!-- BEGIN NAVIGATION -->
         <div class="header-navigation pull-right font-transform-inherit">
           <ul>
-            <li class="dropdown">
+            <li class="dropdown active">
               <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="#">
                 Home 
-                
               </a>
             </li>
             <li class="dropdown dropdown-megamenu">
@@ -130,7 +130,7 @@ Like: https://www.facebook.com/thinkcreativegroup
                 </li>
               </ul>
             </li>
-            <li class="dropdown active">
+            <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="#">
                 Pages 
                 
@@ -144,9 +144,9 @@ Like: https://www.facebook.com/thinkcreativegroup
                 <li><a href="page-gallery.html">Video Gallery</a></li>
                 <li><a href="page-sliders.html">Sliders</a></li>
                 <li><a href="page-testimonials.html">Testimonials</a></li>
-                <li><a href="page-events-calendar.html">Events Calendar</a></li>
+                <li class="active"><a href="page-events-calendar.html">Events Calendar</a></li>
                 <li><a href="page-search-result.html">Search Result</a></li>
-                <li class="active"><a href="page-404.html">404</a></li>
+                <li><a href="page-404.html">404</a></li>
                 <li><a href="page-500.html">500</a></li>
                 <li><a href="page-login.html">Login Page</a></li>
                 <li><a href="page-forgotton-password.html">Forget Password</a></li>
@@ -212,9 +212,6 @@ Like: https://www.facebook.com/thinkcreativegroup
               </ul>
             </li>
             <!-- <li><a href="shop-index.html" target="_blank">E-Commerce</a></li> -->
-            <!-- <li><a href="onepage-index.html" target="_blank">One Page</a></li> -->
-            <!-- <li><a href="http://keenthemes.com/preview/metronic/theme/templates/admin" target="_blank">Admin theme</a></li> -->
-
             <!-- BEGIN TOP SEARCH -->
             <li class="menu-search">
               <span class="sep"></span>
@@ -240,29 +237,32 @@ Like: https://www.facebook.com/thinkcreativegroup
 
     <div class="main">
       <div class="container">
-        <!-- BEGIN SIDEBAR & CONTENT -->
+        <ul class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Pages</a></li>
+            <li class="active">Event Calendar</li>
+        </ul>
         <div class="row margin-bottom-40">
-          <!-- BEGIN CONTENT -->
-          <div class="col-md-12 col-sm-12">
-            <div class="content-page page-404">
-               <div class="number">
-                  404
-               </div>
-               <div class="details">
-                  <h3>Oops!  You're lost.</h3>
-                  <p>
-                     We can not find the page you're looking for.<br>
-                     <a href="index.html" class="link">Return home</a> or try the search bar below.
-                  </p>
+          <div class="col-md-8">
+              <!-- CALENDAR -->
+              <h2>Example One - Event Calendar</h2>
+              <div style="width:100%; max-width:100%; display:inline-block; border: 1px solid #ebebeb;">
+                  <div class="monthly" id="mycalendar"></div>
+              </div>
+              <br><br><br>
+              
+              <!-- END CALENDAR -->
+            </div>
+            <div class="col-md-4">
+               <h2>Example Two - Date Picker</h2>
+               <div style="display:inline-block; width:250px;">
+                   <input type="text" id="mytarget" value="Select Date">
+                   <div class="monthly" id="mycalendar2"></div>
                </div>
             </div>
-          </div>
-          <!-- END CONTENT -->
         </div>
-        <!-- END SIDEBAR & CONTENT -->
       </div>
     </div>
-
 
     <!-- BEGIN FOOTER -->
     <div class="footer">
@@ -276,11 +276,15 @@ Like: https://www.facebook.com/thinkcreativegroup
           <!-- BEGIN PAYMENTS -->
           <div class="col-md-6 col-sm-6">
             <ul class="social-footer list-unstyled list-inline pull-right">
-              <li><a href="https://www.facebook.com/thinkcreativegroup"  target="_blank" ><i class="fa fa-facebook"></i></a></li>
-              <li><a href="https://plus.google.com/u/0/+thinkcreativegroupNewHaven/"  target="_blank"><i class="fa fa-google-plus"></i></a></li>
-              <li><a href="https://www.linkedin.com/company/think-creative-group" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-              <li><a href="https://twitter.com/thinkcreativect" target="_blank"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="https://www.youtube.com/user/ThinkCreativeGroup" target="_blank"><i class="fa fa-youtube"></i></a></li>
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+              <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-skype"></i></a></li>
+              <li><a href="#"><i class="fa fa-github"></i></a></li>
+              <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+              <li><a href="#"><i class="fa fa-dropbox"></i></a></li>
             </ul>  
           </div>
           <!-- END PAYMENTS -->
@@ -293,7 +297,7 @@ Like: https://www.facebook.com/thinkcreativegroup
     <!-- BEGIN CORE PLUGINS (REQUIRED FOR ALL PAGES) -->
     <!--[if lt IE 9]>
     <script src="/assets/global/plugins/respond.min.js"></script>
-    <![endif]--> 
+    <![endif]-->
     <script src="/assets/global/plugins/jquery.min.js" type="text/javascript"></script>
     <script src="/assets/global/plugins/jquery-migrate.min.js" type="text/javascript"></script>
     <script src="/assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>      
@@ -301,15 +305,42 @@ Like: https://www.facebook.com/thinkcreativegroup
     <!-- END CORE PLUGINS -->
 
     <!-- BEGIN PAGE LEVEL JAVASCRIPTS (REQUIRED ONLY FOR CURRENT PAGE) -->
-    <script src="/assets/global/plugins/fancybox/source/jquery.fancybox.pack.js" type="text/javascript"></script><!-- pop up -->
+    <script type="text/javascript" src="/assets/global/plugins/monthly/js/monthly.js"></script>
+    <script type="text/javascript">
+    $(window).load( function() {
+
+        $('#mycalendar').monthly({
+            mode: 'event',
+            xmlUrl: '/assets/global/plugins/monthly/events.xml'
+        });
+
+        $('#mycalendar2').monthly({
+            mode: 'picker',
+            target: '#mytarget',
+            setWidth: '250px',
+            startHidden: true,
+            showTrigger: '#mytarget',
+            stylePast: true,
+            disablePast: true
+        });
+
+    switch(window.location.protocol) {
+    case 'http:':
+    case 'https:':
+    // running on a server, should be good.
+    break;
+    case 'file:':
+    alert('Just a heads-up, events will not work when run locally.');
+    }
+
+    });
+    </script>
+
 
     <script src="/assets/frontend/layout/scripts/layout.js" type="text/javascript"></script>
-    <script type="text/javascript">
-        jQuery(document).ready(function() {
-            Layout.init();    
-            Layout.initTwitter();
-        });
-    </script>
+    
+
+    
     <!-- END PAGE LEVEL JAVASCRIPTS -->
 </body>
 <!-- END BODY -->
