@@ -6938,7 +6938,7 @@ Green Default
 /* Button */
 .green.btn {
   color: #FFFFFF;
-  background-color: #35aa47;
+  background-color: #30bed6;
   border-color: "";
 }
 .green.btn:hover, .green.btn:focus, .green.btn:active, .green.btn.active {
@@ -6960,22 +6960,22 @@ Green Default
   background-image: none;
 }
 .green.btn.disabled, .green.btn.disabled:hover, .green.btn.disabled:focus, .green.btn.disabled:active, .green.btn.disabled.active, .green.btn[disabled], .green.btn[disabled]:hover, .green.btn[disabled]:focus, .green.btn[disabled]:active, .green.btn[disabled].active, fieldset[disabled] .green.btn, fieldset[disabled] .green.btn:hover, fieldset[disabled] .green.btn:focus, fieldset[disabled] .green.btn:active, fieldset[disabled] .green.btn.active {
-  background-color: #35aa47;
+  background-color: #30bed6;
 }
 .green.btn .badge {
-  color: #35aa47;
+  color: #30bed6;
   background-color: #FFFFFF;
 }
 
 /* Button Strip */
 .btn.green-stripe {
-  border-left: 3px solid #35aa47;
+  border-left: 3px solid #30bed6;
 }
 
 /* Portlet */
 .portlet > .portlet-body.green,
 .portlet.green {
-  background-color: #35aa47;
+  background-color: #30bed6;
 }
 
 .portlet.solid.green > .portlet-title,
@@ -7010,7 +7010,7 @@ Green Default
   border-top: 0;
 }
 .portlet.box.green > .portlet-title {
-  background-color: #35aa47;
+  background-color: #30bed6;
 }
 .portlet.box.green > .portlet-title > .caption {
   color: #FFFFFF;
@@ -7034,7 +7034,7 @@ Green Default
 
 /* Statistic Block */
 .dashboard-stat.green {
-  background-color: #35aa47;
+  background-color: #30bed6;
 }
 .dashboard-stat.green.dashboard-stat-light:hover {
   background-color: #309a41;
@@ -7059,19 +7059,19 @@ Green Default
 
 /* General Element */
 .bg-green {
-  border-color: #35aa47 !important;
+  border-color: #30bed6 !important;
   background-image: none !important;
-  background-color: #35aa47 !important;
+  background-color: #30bed6 !important;
   color: #FFFFFF !important;
 }
 
 /* General Text & Icon Font Colors */
 .font-green {
-  color: #35aa47 !important;
+  color: #30bed6 !important;
 }
 
 .progress-bar.green {
-  background: #35aa47 !important;
+  background: #30bed6 !important;
   color: #FFFFFF !important;
 }
 
